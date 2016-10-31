@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zhl.userguideview</groupId>
+  <artifactId>Userguidelibrary</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Userguidelibrary</name>
+  <description>a userguide view</description>
+  <url>https://github.com/yilylong/UserGuideView</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>saschpe</id>
+      <name>Sascha Peilicke</name>
+      <email>sascha@peilicke.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yilylong/UserGuideView.git</connection>
+    <developerConnection>https://github.com/yilylong/UserGuideView.git</developerConnection>
+    <url>https://github.com/yilylong/UserGuideView</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
